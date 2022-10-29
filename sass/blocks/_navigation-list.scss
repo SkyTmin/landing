@@ -1,0 +1,23 @@
+.navigation-list{
+	ul{
+		display: flex;
+	}
+	li{
+	}
+	li:not(:last-child){
+		margin-right: 42px;
+	}
+
+	a{
+		color: inherit;
+		text-decoration: none;
+	}
+	
+}
+.hovercolors:nth-child(1){
+	color: #f78434;
+	font-weight: 700;
+}
+.hovercolors:hover{
+	color: #f78434;
+}
